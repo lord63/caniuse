@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+include caniuse/test/test_caniuse.py
