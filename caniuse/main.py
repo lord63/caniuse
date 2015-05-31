@@ -8,7 +8,7 @@ import requests
 
 def check(package_name):
     response = requests.get(
-        'http://pypi.python.org/pypi/{0}/json'.format(package_name))
+        'https://pypi.python.org/pypi/{0}/json'.format(package_name))
     try:
         package_url = response.json()['info']['package_url']
         return ("Sorry, this package name has been registered :(\n"
