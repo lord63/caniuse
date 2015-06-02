@@ -34,7 +34,7 @@ check whether a package name has been used on PyPI.
 ## Tests
 
     $ pip install -r dev-requirements.txt
-    $ py.test -v --pep8 caniuse/test/
+    $ make test
 
 ### License
 
