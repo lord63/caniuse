@@ -12,5 +12,8 @@ install:
 script:
     - make test
 
+after_success:
+    - codecov
+
 notifications:
     email: false

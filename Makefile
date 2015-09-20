@@ -1,2 +1,2 @@
 test:
-	@py.test --pep8 -v caniuse/test/*.py caniuse/*.py
+	@py.test --pep8 -v --cov=caniuse/ caniuse/test/*.py caniuse/*.py
