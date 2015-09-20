@@ -3,6 +3,8 @@
 [![Latest Version][1]][2]
 [![Build Status][3]][4]
 [![Wheel Status][5]][6]
+[![Coverage Status][7]][8]
+
 
 > Can I use this name for my python package on PyPI?
 
@@ -47,3 +49,5 @@ MIT.
 [4]: https://travis-ci.org/lord63/caniuse
 [5]: https://img.shields.io/badge/wheel-yes-blue.svg
 [6]: https://img.shields.io/badge/wheel-yes-blue
+[7]: http://codecov.io/github/lord63/caniuse/coverage.svg?branch=master
+[8]: http://codecov.io/github/lord63/caniuse?branch=master
