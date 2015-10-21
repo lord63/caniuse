@@ -4,13 +4,14 @@ python:
     - "2.7"
     - "3.3"
     - "3.4"
+    - "3.5"
 
 install:
     - pip install -r dev-requirements.txt
     - pip install -e .
 
 script:
-    - tox
+    - make test
 
 after_success:
     - codecov
