@@ -5,3 +5,4 @@ pytest-pep8
 pytest-cov
 codecov
 responses
+tox
