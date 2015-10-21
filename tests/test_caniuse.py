@@ -10,6 +10,7 @@ from caniuse.main import check
 from caniuse.cli import cli
 
 
+@pytest.mark.usefixtures('mock_api')
 class TestAPI():
     def test_package_name_has_been_used(self):
         assert 'Sorry' in check('requests')
@@ -24,6 +25,7 @@ class TestAPI():
             check('I_suck_and_my_tests_are_order_dependent')
 
 
+@pytest.mark.usefixtures('mock_api')
 class TestCLI():
     def test_package_name_has_been_used(self):
         runner = CliRunner()
