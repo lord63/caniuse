@@ -1,3 +1,9 @@
+2015.10.21 v0.3.0
+- add python3.5 support
+- mock the tests: cost less time running the tests
+- add code coverage
+- have a try about tox
+
 2015.08.24 v0.2.1
 - remove unicode_literals
 
