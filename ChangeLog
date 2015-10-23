@@ -1,3 +1,8 @@
+2015.10.23 v0.3.1
+- add the missing python3.5 in the classify
+- add version option: -V / --version
+- add short help option: -h
+
 2015.10.21 v0.3.0
 - add python3.5 support
 - mock the tests: cost less time running the tests
